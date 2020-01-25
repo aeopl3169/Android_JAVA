@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">ACR BROWSER BAREBONES</string>
+    <string name="sample_malicious_app_head">Package Name</string>
+    <string name="sample_malicious_app">acr.browser.barebones \n</string>
+    <string name="requested_permission_extended_apk_head">Requested Permissions extracted from APK TOOL</string>
+    <string name="requested_permission_extended_apk">INTERNET \n
+        WRITE_EXTERNAL_STORAGE \n
+        READ_EXTERNAL_STORAGE \n
+        ACCESS_FINE_LOCATION \n
+        READ_HISTORY_BOOKMARKS \n
+        WRITE_HISTORY_BOOKMARKS \n
+    </string>
+    <string name="intents_extraction_from_manifest_head">Intents extraction from manifest file</string>
+    <string name="intents_extraction_from_manifest">
+        android.intent.category.DEFAULT \n
+        android.intent.category.BROWSABLE \n
+        android.intent.category.APP_BROWSER \n
+        android.intent.category.LAUNCHER \n
+        android.intent.action.VIEW \n
+        android.intent.action.MAIN \n
+        android.intent.action.GET_CONTENT \n
+        com.android.vending.INSTALL_REFERRER \n
+        android.intent.action.MEDIA_BUTTON \n
+        android.appwidget.action.APPWIDGET_UPDATE \n
+        android.intent.action.MEDIA_MOUNTED \n
+        android.intent.action.MEDIA_REMOVED \n
+        android.intent.action.MEDIA_UNMOUNTED
+    </string>
+    <string name="intents_extraction_from_manifest_red">
+        android.intent.category.BROWSABLE \n
+        android.intent.action.GET_CONTENT \n
+        com.android.vending.INSTALL_REFERRER \n
+    </string>
+    <string name="next">NEXT</string>
+    <string name="expert_recommended_permission_head">Expert Recommended permissions</string>
+    <string name="expert_recommended_permission">ACCESS_FINE_LOCATION \n
+        INTERNET \n
+        WRITE_EXTERNAL_STORAGE \n
+    </string>
+    <string name="filtered_permissions_through_algorithm_head">Filtered Permissions Through Algorithm</string>
+    <string name="filtered_permissions_through_algorithm">ACCESS_FINE_LOCATION \n
+        INTERNET \n
+        READ_EXTERNAL_STORAGE \n
+        WRITE_EXTERNAL_STORAGE \n
+        READ_HISTORY_BOOKMARKS \n
+        WRITE_HISTORY_BOOKMARKS
+    </string>
+    <string name="filtered_permissions_through_algorithm_red">
+        READ_HISTORY_BOOKMARKS \n
+        WRITE_HISTORY_BOOKMARKS
+    </string>
+    <string name="applying_our_APIDM_model_to_the_requested_permissions_head">Applying Our APIDM Model to the requested_permissions</string>
+    <string name="applying_our_APIDM_model_to_the_requested_permissions">0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 \n</string>
+    <string name="risky_permissions_identified_from_the_model_benign_head">Risky Permissions identified from the model_benign</string>
+    <string name="risky_permissions_identified_from_the_model_benign">0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n</string>
+    <string name="malcious_risky_permissions_identified_from_the_model_head">Malcious Risky Permissions identified from the model</string>
+    <string name="malcious_risky_permissions_identified_from_the_model">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n</string>
+    <string name="classification_from_APIDM_head">Classification from APIDM</string>
+    <string name="classification_from_APIDM">READ_EXTERNAL_STORAGE -RISKY-Malicious \n</string>
+    <string name="appropriate_permissions_head">Appropriate Permissions</string>
+    <string name="appropriate_permissions">ACCESS_FINE_LOCATION \n
+        INTERNET \n
+        WRITE_EXTERNAL_STORAGE \n
+</string>
+</resources>

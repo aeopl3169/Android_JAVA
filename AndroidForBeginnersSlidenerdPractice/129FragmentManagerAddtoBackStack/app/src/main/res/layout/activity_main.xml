@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonAddA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addA"
+        android:text="Add A" />
+
+    <Button
+        android:id="@+id/buttonRemoveA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonAddA"
+        android:onClick="removeA"
+        android:text="Remove A" />
+
+    <Button
+        android:id="@+id/buttonReplaceAbyB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/buttonRemoveA"
+        android:onClick="replaceAbyB"
+        android:text="Replace A by B" />
+
+    <Button
+        android:id="@+id/buttonAddB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddA"
+        android:onClick="addB"
+        android:text="Add B" />
+
+    <Button
+        android:id="@+id/buttonRemoveB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddA"
+        android:layout_toRightOf="@id/buttonAddA"
+        android:onClick="removeB"
+        android:text="Remove B" />
+
+    <Button
+        android:id="@+id/buttonReplaceBbyA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddA"
+        android:layout_toRightOf="@id/buttonRemoveA"
+        android:onClick="replaceBbyA"
+        android:text="Replace B by A" />
+
+    <Button
+        android:id="@+id/buttonAttach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddB"
+        android:onClick="attachA"
+        android:text="Attach" />
+
+    <Button
+        android:id="@+id/buttonDetach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddB"
+        android:layout_toRightOf="@id/buttonAddA"
+        android:onClick="detachA"
+        android:text="Detach" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAttach"
+        android:onClick="backButton"
+        android:text="Back Button" />
+
+    <Button
+        android:id="@+id/buttonPopAddB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAttach"
+        android:layout_toRightOf="@id/buttonBack"
+        android:onClick="popAddB"
+        android:text="Pop add B" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonBack"
+        android:background="#ffbb00"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

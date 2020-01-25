@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">187 AsyncTask Download Image RotationTechnique</string>
+    <string-array name="names">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+        <item>Image 7</item>
+        <item>Image 8</item>
+        <item>Image 9</item>
+        <item>Image 10</item>
+        <item>Image 11</item>
+    </string-array>
+
+    <string-array name="imageUrl">
+        <item>http://sfwallpaper.com/images/beautiful-scenes-wallpapers-4.jpg</item>
+        <item>https://images.unsplash.com/photo-1490077476659-095159692ab5?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;w=1000&amp;q=80</item>
+        <item>https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/1.png</item>
+        <item>https://images.unsplash.com/photo-1421930866250-aa0594cea05c?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=755&amp;q=80</item>
+        <item>https://images.unsplash.com/photo-1507409613952-518459ac866e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80</item>
+        <item>https://wallpaperaccess.com/full/247679.jpg</item>
+        <item>https://wallpaperaccess.com/full/211836.jpg</item>
+        <item>https://wallpaperaccess.com/full/36359.jpg</item>
+        <item>https://onehdwallpaper.com/wp-content/uploads/2015/07/Beautiful-Scenery-HD-Wallpapers-Pictures-9-624x390.jpg</item>
+        <item>https://wallpaperaccess.com/full/23035.jpg</item>
+        <item>https://wallpaperaccess.com/full/210918.jpg</item>
+    </string-array>
+</resources>
+

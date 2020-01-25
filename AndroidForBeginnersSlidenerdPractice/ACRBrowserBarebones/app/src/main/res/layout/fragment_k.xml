@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:padding="@dimen/my_padding"
+        android:text="@string/malcious_risky_permissions_identified_from_the_model_head"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/my_padding"
+        android:text="@string/malcious_risky_permissions_identified_from_the_model"
+        android:textColor="@color/colorBlue" />
+
+</LinearLayout>

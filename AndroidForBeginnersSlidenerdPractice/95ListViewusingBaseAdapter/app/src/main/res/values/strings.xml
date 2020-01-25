@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">95 ListView using BaseAdapter</string>
+    <string-array name="titles">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        <item>Title 5</item>
+        <item>Title 6</item>
+        <item>Title 7</item>
+        <item>Title 8</item>
+        <item>Title 9</item>
+        <item>Title 10</item>
+        <item>Title 11</item>
+        <item>Title 12</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>description 1</item>
+        <item>description 2</item>
+        <item>description 3</item>
+        <item>description 4</item>
+        <item>description 5</item>
+        <item>description 6</item>
+        <item>description 7</item>
+        <item>description 8</item>
+        <item>description 9</item>
+        <item>description 10</item>
+        <item>description 11</item>
+        <item>description 12</item>
+    </string-array>
+</resources>

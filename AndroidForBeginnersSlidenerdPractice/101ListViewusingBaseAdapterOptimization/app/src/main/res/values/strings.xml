@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">101 ListView using BaseAdapter Optimization</string>
+    <string-array name="titles">
+        <item>Title 1</item>
+        <item>Title 2</item>
+        <item>Title 3</item>
+        <item>Title 4</item>
+        <item>Title 5</item>
+        <item>Title 6</item>
+        <item>Title 7</item>
+        <item>Title 8</item>
+        <item>Title 9</item>
+        <item>Title 10</item>
+        <item>Title 11</item>
+        <item>Title 12</item>
+    </string-array>
+</resources>

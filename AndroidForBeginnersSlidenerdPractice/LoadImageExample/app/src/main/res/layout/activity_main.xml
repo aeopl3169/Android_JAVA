@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_do"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_margin="25dp"
+        android:text="Download Image" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:background="#c3ccbc"
+        android:scaleType="centerCrop"
+        app:layout_anchor="@id/btn_do"
+        app:layout_anchorGravity="bottom" />
+
+    <ImageView
+        android:id="@+id/iv_internal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:background="#bcc7cc"
+        android:scaleType="centerCrop"
+        app:layout_anchor="@id/iv"
+        app:layout_anchorGravity="bottom" />
+
+</LinearLayout>

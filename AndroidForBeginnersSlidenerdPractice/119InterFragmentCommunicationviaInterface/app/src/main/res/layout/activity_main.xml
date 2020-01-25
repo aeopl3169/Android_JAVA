@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBB00"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragmentTop"
+        android:name="com.shiva.a119interfragmentcommunicationviainterface.FragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragmentBottom"
+        android:name="com.shiva.a119interfragmentcommunicationviainterface.FragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragmentTop" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragmentBottom"
+        android:text="Hello World!" />
+
+</RelativeLayout>

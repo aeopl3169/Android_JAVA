@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">122 Flexible UI with Fragments Landscape</string>
+
+    <string-array name="titles">
+        <item>Kotlin Fundamentals</item>
+        <item>Kotlin Bootcamp</item>
+        <item>Android Developer Fundamentals</item>
+        <item>Avd Android Development</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>
+            The Android Kotlin Fundamentals course was created by the Google Developers Training team. In the course, you learn Android Kotlin programming concepts and build a variety of apps. The Android Kotlin Fundamentals course materials include
+Course codelabs. Starter apps and solution code in GitHub for apps that you create in the codelabs.
+        </item>
+        <item>
+            In the Kotlin Bootcamp for Programmers course, you learn the basics of Kotlin as you create various small programs in IntelliJ IDEA.
+The course materials include course codelabs with suggested homework assignments.
+Youll get the most value out of this course if you work through the lessons in sequence, but its not a requirement. Depending on your knowledge, you may be able to skim some sections.
+        </item>
+        <item>
+            In the Android Developer Fundamentals course, you learn basic Android programming concepts and build a variety of apps, using the Java programming language. You start with Hello World and work your way up to apps that schedule jobs, update settings, and use Android Architecture Components.
+        </item>
+        <item>
+            Take your Android coding skills to the next level in our free, self-paced Advanced Android Development training. The course uses the Java programming language and teaches you ways to expand the user experience, improve app performance, and add features like custom views, animations, and location-awareness.
+
+Each lesson includes a tutorial with solution code in GitHub, concept documentation, and a slide deck.
+        </item>
+    </string-array>
+</resources>

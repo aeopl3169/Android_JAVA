@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">174 Multithreading</string>
+
+    <string-array name="url">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+    </string-array>
+
+    <string-array name="imageUrl">
+        <item>http://sfwallpaper.com/images/beautiful-scenes-wallpapers-4.jpg</item>
+        <item>https://www.evernote.com/shard/s283/nl/51010946/29b77e84-5de1-4030-82af-475db8ed8023?title=Screenshot</item>
+        <item>https://storage.googleapis.com/network-security-conf-codelab.appspot.com/images/1.png</item>
+        <item>https://www.google.com/search?q=hd+sceneries&amp;safe=strict&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=1Uf2fJgJm8Ah8M%253A%252CjW-lZecpFwTZJM%252C_&amp;vet=1&amp;usg=AI4_-kQz0URXQ--QpLVfKLTMm147HGV9MQ&amp;sa=X&amp;ved=2ahUKEwi7opew2KLkAhVIL48KHemDB60Q9QEwBXoECAUQDg&amp;biw=1242&amp;bih=597#imgrc=1Uf2fJgJm8Ah8M:</item>
+        <item>https://www.google.com/search?q=hd+sceneries&amp;safe=strict&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=-99Efl4BRnGm0M%253A%252CQI21ELUlsX3wxM%252C_&amp;vet=1&amp;usg=AI4_-kQlJGcC7JBdwsRVjkQmedYoUXxXsQ&amp;sa=X&amp;ved=2ahUKEwi7opew2KLkAhVIL48KHemDB60Q9QEwBnoECAUQEA&amp;biw=1242&amp;bih=597#imgrc=-99Efl4BRnGm0M:</item>
+        <item>https://www.google.com/search?q=hd+sceneries&amp;safe=strict&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;fir=psVNrWTaz-5BXM%253A%252CEGjQB6gbkGD5FM%252C_&amp;vet=1&amp;usg=AI4_-kQ2yStGPkO4ssHMpcsC04Ald3QxLA&amp;sa=X&amp;ved=2ahUKEwi7opew2KLkAhVIL48KHemDB60Q9QEwB3oECAUQEg&amp;biw=1242&amp;bih=597#imgrc=psVNrWTaz-5BXM:</item>
+    </string-array>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter data"/>
+
+    <Button
+        android:id="@+id/buttonCacheInternal"
+        android:onClick="saveCacheInternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CACHE INTERNAL"/>
+
+    <Button
+        android:id="@+id/buttonCacheExternal"
+        android:onClick="saveCacheExternal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cache External"/>
+
+    <Button
+        android:id="@+id/buttonFileStoragePrivate"
+        android:onClick="saveFileStoragePrivate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Storage Private"/>
+
+    <Button
+        android:id="@+id/buttonFileStoragePublic"
+        android:onClick="saveFileStoragePublic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Storage Public"/>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:onClick="openAnotherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"/>
+
+</LinearLayout>

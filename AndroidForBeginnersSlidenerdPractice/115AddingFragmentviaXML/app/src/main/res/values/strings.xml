@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">115 Adding Fragment via XML</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_fragment_a">Hello from fragment A</string>
+</resources>
