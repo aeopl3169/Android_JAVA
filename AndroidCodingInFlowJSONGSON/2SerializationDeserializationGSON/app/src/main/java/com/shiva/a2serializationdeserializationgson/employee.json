@@ -1,0 +1,19 @@
+{
+  "address": {
+    "city": "Hyderabad",
+    "country": "India"
+  },
+  "age": 28,
+  "email": "shashishiva9@gmail.com",
+  "familyMembersList": [
+    {
+      "age": 51,
+      "role": "mother"
+    },
+    {
+      "age": 56,
+      "role": "father"
+    }
+  ],
+  "name": "shiva"
+}

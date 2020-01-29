@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">api.myjson.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" /> <!-- The default configuration for apps targeting Android 6.0 (API level 23) and lower -->
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
